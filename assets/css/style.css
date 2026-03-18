@@ -479,10 +479,59 @@ strong:nth-child(2) {
   width: 740px;
   height: 160px;
   font-style: italic;
-  color: #FFFFFF;
+  color: #ffffff;
   font-size: 2.6rem;
   line-height: 1.54;
   margin-left: 28px;
 }
 
+/* ==================================Features================================== */
+.features {
+  margin-top: 135px;
+  padding: 65px 0;
+  background-color: aquamarine;
+}
+.features .body {
+  display: flex;
+  justify-content: space-between;
+}
 
+.features .images {
+  display: flex;
+  gap: 30px;
+}
+
+.features .images img {
+  width: 270px;
+  height: 404px;
+  object-fit: cover;
+  border-radius: 16px;
+}
+
+.features .lower {
+  margin-top: 34px;
+}
+
+.features .content {
+  width: 41%;
+}
+
+.features .desc {
+  margin-top: 16px;
+  color: #5f5b53;
+  font-size: 1.6rem;
+  line-height: 1.75;
+}
+
+.features .cta-btn {
+  margin-top: 32px;
+  width: 137px;
+  height: 50px;
+  background-color: var(--primary-color);
+}
+
+.features .content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
