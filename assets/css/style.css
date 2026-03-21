@@ -73,6 +73,10 @@ a {
 }
 
 /* ------------------------header----------------------- */
+.header {
+  background-color: #fffcf4;
+  
+}
 .header .body {
   background-color: #fffcf4;
   display: flex;
@@ -489,8 +493,9 @@ strong:nth-child(2) {
 .features {
   margin-top: 135px;
   padding: 65px 0;
-  background-color: aquamarine;
+  /* background-color: aquamarine; */
 }
+
 .features .body {
   display: flex;
   justify-content: space-between;
@@ -534,4 +539,260 @@ strong:nth-child(2) {
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+
+/* ===========================CTA============================== */
+.cta {
+  margin-top: 70px;
+  padding: 65px 0;
+  /* background-color: #e9b7b7; */
+}
+
+.cta .body {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cta .content {
+  width: 48.69%;
+}
+
+.cta .images img {
+  width: 470px;
+  height: 440px;
+  object-fit: cover;
+  border-radius: 16px;
+}
+
+.cta .desc {
+  margin-top: 16px;
+  color: #5f5b53;
+  font-size: 1.6rem;
+  line-height: 1.75;
+}
+
+.cta .cta-btn {
+  margin-top: 32px;
+  width: 137px;
+  height: 50px;
+  background-color: var(--primary-color);
+}
+
+.cta .content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* ==================================Blog=============================== */
+.Blog {
+  margin-top: 70px;
+  padding: 96px 0;
+  background-color: #fffcf4;
+}
+
+.Blog-top {
+  display: flex;
+  justify-content: center;
+}
+
+.Blog-top .info {
+  width: 448px;
+  height: 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.Blog-top .desc {
+  margin-top: 16px;
+  line-height: 1.75;
+  color: #696262;
+}
+
+.Blog .list {
+  display: flex;
+  gap: 30px;
+  overflow: hidden;
+  transition: transform 0.5s ease;
+  /* transform: translateX(-1170px); */
+}
+
+.Blog-list {
+  margin-top: 55px;
+  display: flex;
+  gap: 30px;
+}
+
+.Blog-item {
+  width: 370px;
+  height: 467px;
+  border-radius: 16px;
+  background-color: #ffffff;
+  box-shadow: 0px 16px 32px 0px rgba(0, 0, 0, 0.05);
+}
+
+.Blog .Blog-item img {
+  width: 370px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 16px 16px 0 0;
+}
+
+.Blog .Blog-item .detail {
+  margin: 20px 20px 20px 20px;
+}
+
+.Blog .date {
+  font-size: 1.4rem;
+  line-height: 1.85;
+  color: #5f5b53;
+}
+
+.Blog .date::after {
+  content: "";
+  display: block;
+  width: 160px;
+  height: 1px;
+  background: #e2dfda;
+  margin-top: 12px;
+}
+
+.Blog .Blog-item .desc {
+  margin-top: 12px;
+  font-size: 1.6rem;
+  line-height: 1.75;
+  font-weight: 600;
+}
+
+.Blog .btn-read {
+  margin-top: 12px;
+  font-size: 1.4rem;
+  cursor: pointer;
+  border: none;
+}
+
+.Blog .btn-read:hover {
+  background-color: var(--primary-color);
+}
+
+.Blog .dots {
+  margin-top: 38px;
+  display: flex;
+  gap: 6px;
+  justify-content: center;
+}
+
+.Blog .dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background-color: #634700;
+  cursor: pointer;
+}
+
+.Blog .dot.active {
+  background-color: var(--primary-color);
+  cursor: default;
+}
+
+.Blog .dot:hover {
+  background-color: var(--primary-color);
+}
+
+/* ==========================footer======================== */
+footer {
+  background-color: #2e2100;
+  height: 428px;
+}
+
+footer .footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+footer .contact-info {
+  margin-top: 96px;
+  display: flex;
+}
+
+.footer .social {
+  width: 267px;
+  height: 163px;
+}
+
+.footer .social .desc {
+  margin-top: 18px;
+}
+
+.footer .social .app {
+  margin-top: 18px;
+  display: flex;
+  gap: 18px;
+}
+
+.footer h6 {
+  font-size: 1.6rem;
+  line-height: 1.75;
+  color: #ffffff;
+}
+
+.footer h6::after {
+  content: "";
+  display: block;
+  width: 130px;
+  height: 1px;
+  background-color: #59554b;
+  margin-top: 14px;
+}
+
+.footer p {
+  font-size: 1.4rem;
+  line-height: 1.85;
+  color: #bfbcb2;
+  margin-top: 12px;
+}
+
+.footer .company-info p:first-of-type,
+.footer .support p:first-of-type,
+.footer .address p:first-of-type {
+  margin-top: 28px;
+}
+
+.footer .company-info {
+  margin-left: 145px;
+}
+
+.footer .support,
+.footer .address {
+  margin-left: 130px;
+}
+
+.footer .address span {
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.footer .address {
+  width: 231px;
+}
+
+.footer-line {
+  width: 1170px;
+  height: 1px;
+  background-color: #59554b;
+  margin-top: 38px;
+}
+
+.footer .copyright {
+  margin-top: 28px;
+  color: #807d74;
+  font-size: 1.4rem;
+  line-height: 1.85;
+}
+
+.footer a {
+  color: #bfbcb2;
 }
